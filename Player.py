@@ -6,6 +6,7 @@ import sys
 import threading
 import time
 import urllib.request
+from llama_cpp import Llama
 from pathlib import Path
 from tkinter import filedialog, messagebox
 from updater import check_for_update
