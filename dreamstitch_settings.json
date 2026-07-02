@@ -1,0 +1,12 @@
+{
+  "videos_dir": "Videos",
+  "segment_seconds": 8,
+  "segments_per_dream": 8,
+  "voice_seconds": 6,
+  "videos_per_keyword": 2,
+  "max_vault_downloads": 500,
+  "live_searches_per_term": 2,
+  "use_live_mode": false,
+  "hybrid_mode": true,
+  "cache_live_clips": false
+}

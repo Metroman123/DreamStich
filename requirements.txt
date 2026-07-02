@@ -1,0 +1,8 @@
+customtkinter
+numpy
+sounddevice
+soundfile
+python-vlc
+openai-whisper
+yt-dlp
+llama-cpp-python
