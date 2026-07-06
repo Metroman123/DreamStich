@@ -1,7 +1,7 @@
 # DreamStitch
 
 DreamStitch is an experimental desktop video-dream generator. It builds atmospheric video sequences from a local video vault or live web searches, using mood text, voice input, FFmpeg stitching, VLC playback, and an optional local GGUF AI model.
-
+Works Best with Python-3.12
 ## Current Features
 
 - CustomTkinter desktop interface

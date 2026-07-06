@@ -6,7 +6,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-GITHUB_REPO = "https://github.com/Metroman123/DreamStich"
+GITHUB_REPO = "Metroman123/DreamStich"
 CURRENT_VERSION_FILE = Path("version.txt")
 
 PROTECTED = {
