@@ -424,3 +424,39 @@ FFmpeg stitching
         ↓
 VLC playback
 ```
+```MISC OPTIONAL SETUP
+Optimizing yt-dlp with a JavaScript Runtime (Recommended)
+
+While this application works out of the box for basic downloads, you may occasionally see a warning from `yt-dlp` regarding a missing JavaScript runtime. 
+
+#### Why is this recommended?
+YouTube frequently updates its system with complex JavaScript challenges to prevent automation. Without a JS runtime installed on your machine, `yt-dlp` cannot solve these challenges efficiently. Installing a runtime provides two massive benefits:
+1. **Uncapped Download Speeds:** Prevents YouTube from severely throttling your download speeds down to a crawl.
+2. **Access to Maximum Quality:** Ensures you can unlock and download high-definition streams (like 1080p, 2K, and 4K) which often require complex extraction.
+
+We recommend installing **Deno** or **Node.js**. `yt-dlp` will automatically detect them once installed.
+
+---
+
+### Installation Instructions
+
+#### 🪟 Windows & 🐧 Linux
+```bash
+# === WINDOWS (Run in PowerShell) ===
+# Option A (Recommended)
+winget install --id=DenoLand.Deno
+
+# Option B (Alternative)
+winget install OpenJS.NodeJS
+
+
+# === LINUX (Run in your terminal) ===
+# Ubuntu / Debian / Mint
+sudo apt update && sudo apt install nodejs
+
+# Fedora / RHEL
+sudo dnf install nodejs
+
+# Arch Linux
+sudo pacman -S deno
+```
